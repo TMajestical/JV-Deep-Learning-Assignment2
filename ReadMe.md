@@ -22,25 +22,36 @@ The default parameters of this code are set according to the best model found du
        
 -wp,    --wandb_project    	None	          Project name used to track experiments in Weights & Biases dashboard
 
+
 -we,    --wandb_entity	        None	          Wandb Entity used to track experiments in the Weights & Biases dashboard.
+
 
 -e,     --epochs	        8	          Number of epochs to train neural network.
 
+
 -b,     --batch_size	        16	          Batch size used to train neural network.
+
 
 -o,     --optimizer	        rmsprop	          choices: ["rmsprop", "adam", "nadam"]
 
+
 -lr,    --learning_rate	        3e-4              Learning rate used to optimize model parameters
+
 
 -w_d,   --weight_decay	        5e-4	          Weight decay used by optimizers.
 
+
 -nhl,   --num_layers	        1	          Number of dense layers in CNN.
+
 
 -sz,    --hidden_size	        64	          Number of hidden neurons in a dense layers of CNN.
 
+
 -a,     --activation	        relu	          choices: ["silu", "tanh", "relu"]
 
+
 -d      --device                None              The device on which the training happens. [When None, the code automatically detects and uses cuda:0 gpu]
+
 
         --conv_layers           5                 Number of convolutional layers in CNN.
         
